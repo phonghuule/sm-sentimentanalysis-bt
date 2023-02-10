@@ -1,1 +1,1 @@
-# sm-sentimentanalysis-bt
+# Creating a multi-label classification model on SageMaker using BlazingText Algorithm
