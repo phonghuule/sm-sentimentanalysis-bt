@@ -67,7 +67,7 @@ The SageMaker Studio UI has a few sections. To explore further, click on the bel
 2. Enter the git repo URL as ``https://github.com/phonghuule/sm-sentimentanalysis-bt.git`` and Click on **Clone**.
 3. Click on the **File Browser** option on the **Left Sidebar**. Open the ``sentiment-analysis-blazingText.ipynb`` at the location ``sm-sentimentanalysis-bt/notebook``.
     ![](images/notebooklocation.png)
-4. Select **Image** as ``Data Science`` and **Kernel** as ``Python 3`` and click on **Select**.
+4. Select **Image** as ``Data Science``, **Kernel** as ``Python 3``, **Instance Type** as ``ml.t3.medium`` and click on **Select**.
     ![](images/selectkernel.png)
 5. Run all cells as per instructions in the notebook.
 
@@ -123,16 +123,19 @@ Follow the steps below to perform a cleanup and prevent accumulating usage charg
     ![](images/shutdownall.png)
 
     ![](images/serverstopped.png)
-3. After this click on the user ``aiml-innovate-2022`` and then delete all apps. At this there should only be the ``default`` app remaining.    
-    ![](images/userdetails.png)
-    ![](images/deleteapp.png)
+3. After this, click on the domain ``aiml-innovate-2023``, user profile ``data-scienctist-1`` and then delete all apps. At this there should only be the ``default`` app remaining.    
+    ![](images/delete-apps.png)
 4.  After the apps have been deleted, click on **Edit** on the _Details_ section within the **User Details** screen.
     ![](images/userdetailsedit.png)
-5. Then click on **Delete User** to delete the default user ``aiml-innovate-2022``. <br/>
+5. Then click on **Delete User** to delete the user ``data-scientist-1``. <br/>
 **Note:** If there are other users please delete these to be able to delete the SageMaker Domain.
     ![](images/deleteuser.png)
 6. Once back on the SageMaker Studio screen, click on **Delete Domain** to delete the domain created to host the SageMaker Studio.
     ![](images/deletedomain.png)
+7. Navigate to **Amazon Sagemaker - Ineference - Endpoints** to delete Endpoint created.
+    ![](images/deletedendpoint.png)
+8. Navigate to **Amazon Sagemaker - Ineference - Endpoint configurations** to delete the configuration created.
+    ![](images/deletedendpointconfig.png)
 
 ### Survey
 Please help us to provide your feedback [here](https://amazonmr.au1.qualtrics.com/jfe/form/SV_0fhl0aCfOF1qjQO?Session=HOL03). Participants who complete the surveys from AWS Innovate Online Conference – Data and AI/ML Edition will receive a gift code for USD25 in AWS credits. AWS credits will be sent via email by 31 March, 2023.
