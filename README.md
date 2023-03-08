@@ -136,6 +136,3 @@ Follow the steps below to perform a cleanup and prevent accumulating usage charg
     ![](images/deletedendpoint.png)
 8. Navigate to **Amazon Sagemaker - Ineference - Endpoint configurations** to delete the configuration created.
     ![](images/deletedendpointconfig.png)
-
-### Survey
-Please help us to provide your feedback [here](https://amazonmr.au1.qualtrics.com/jfe/form/SV_0fhl0aCfOF1qjQO?Session=HOL03). Participants who complete the surveys from AWS Innovate Online Conference – Data and AI/ML Edition will receive a gift code for USD25 in AWS credits. AWS credits will be sent via email by 31 March, 2023.
